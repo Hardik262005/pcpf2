@@ -1,0 +1,17 @@
+fact :: int-> int
+fact 0=0
+fact 1=1
+fact n = n*fact(n-1)
+
+
+fib :: int->int
+fib 0=0
+fib 1=1
+fib n= fib(n-1)+fib(n-2)
+
+
+
+
+natSum :: int -> int
+natSum 0=0
+natSum n = n+natSum(n-1)
